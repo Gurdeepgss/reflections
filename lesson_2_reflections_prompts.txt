@@ -43,8 +43,18 @@ maintaining the already working model.
 
 How do the diagrams help you visualize the branch structure?
 
+instead of just in one's head, visualising branches is very helpful as it lays out all the
+branches and the whole project (the unreachable and the reachable commits).
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+Merging two branches makes the two branches into single one. All the commits from both the
+branches could be reached from the now new merged branch or the new head.
+Diagramatical representation makes it easy to understand as it puts the map right infornt
+of you.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
