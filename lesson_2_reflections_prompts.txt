@@ -24,6 +24,15 @@ radar of git, and then when to commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Make changes to your working directory, run 'git diff' to check the changes between
+working directory and staging area. If staging area is clean, 'git diff' shows the
+difference between the working directory and the last commit. So by checking the output
+from 'git diff' one can be sure about the changes made in the working directory. After
+making a logical change(which can be checked by 'git diff') the changed files can be moved
+to staging area using 'git add'. Further 'git diff --staged' can be used to check the
+difference between staging area and the repository.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
