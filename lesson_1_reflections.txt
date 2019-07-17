@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+As the name 'diff' suggests it just points us to the differences which lead us to
+potential lines in code where a bug could be. Rest is manual searching and thinking to
+figure out the bug. As compared to searching the whole file the pin-pointing of lines that
+changed is really helpful.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Say, at some point in time you come to the conclusion that some earlier implementation of
+a function was better than your current implementation. Wholla, you have got the case in
+which version control system would be helpful.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pros are that you always try to make changes that are logically related and when you
+want to compare or go to previous version of a file you would have clear distinction of
+what was changed between now and then.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Because the code in those multiple files could be related and form a logical unit of
+change.
+
+How can you use the commands git log and git diff to view the history of files?
+
+using git log, all of the history of the repository can be viewed in terms of the commits
+and the commit messages. using the commit id's one can compare different versions of the
+repository by using them with the git diff command.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Since now I can move through the history of commits, making changes that would break the
+application won't be that big a problem since if any problem is introduced, one can always
+move to the commit where the application was working all well.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+building up a project, a piece of software that would solve a problem.
