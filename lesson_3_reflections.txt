@@ -40,4 +40,6 @@ At the moment Git and GitHub combination seems to be one of the best ways to col
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+pull request would be one case, or in case of an experimental feature.
+working only on the master keeps things simple but does not provide flexibility of
+branches.
