@@ -31,7 +31,11 @@ It helps keep tracking the relative state of local master and remote master.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Since at the moment I know only Git, it seems to be really good. So there is no point in
+collaborating without Git (of-course unless something better comes up). I do know to some
+extent a few alternatives to GitHub so that wouldn't be a problem.
+At the moment Git and GitHub combination seems to be one of the best ways to collaborate.
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
